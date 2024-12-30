@@ -1,0 +1,38 @@
+body {
+    margin: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+input {
+    width: 50%;
+    height: 5vh;
+    border-radius: 10px;
+    border-width: 10px black;
+    font-size: 20px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff5c5c;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
